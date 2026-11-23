@@ -1,5 +1,4 @@
-[README.md](https://github.com/user-attachments/files/35263199/README.md)
-# gentleman# 口咽肌肉訓練計數：網頁原型
+# 口咽肌肉訓練計數：網頁原型
 
 用手機或電腦的前鏡頭，偵測臉部特徵點，自動計算「嘟嘴」做了幾下。
 只有幾個檔案、不需要安裝任何套件或建置工具。
