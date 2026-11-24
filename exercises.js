@@ -34,4 +34,12 @@ export const EXERCISES = Object.freeze({
     measure: (lm, width, height) =>
       dist(lm[LM.mouthLeft], lm[LM.mouthRight], width, height) / faceWidth(lm, width, height),
   }),
+
+  mouthOpen: Object.freeze({
+  name: "張大嘴",
+  hint: "嘴巴盡量張大",
+  points: [LM.upperLipIn, LM.lowerLipIn, LM.faceLeft, LM.faceRight],
+  measure: (lm, width, height) =>
+    dist(lm[LM.upperLipIn], lm[LM.lowerLipIn], width, height) / faceWidth(lm, width, height),
+}),
 });
